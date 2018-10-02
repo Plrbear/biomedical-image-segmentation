@@ -3,17 +3,17 @@
 
 ### Datasets
 [Provided data](http://www.andrewjanowczyk.com/deep-learning/)
-The tree of ```raw``` dir must be like:
+The tree of ```dataset``` dir must be like:
 
 ```
--dataset1
+-dataset
  |
  -----mask
  |    |
       -----x.png
- |     |
+ |    |
       -----y.png
- |     |
+ |    |
       -----...
  |
  ---- train
