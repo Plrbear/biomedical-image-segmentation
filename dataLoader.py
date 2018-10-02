@@ -86,15 +86,5 @@ def dataloader(ad1,ad2,ad3,ad5,img_format,img_dim):
     return TrainImages,TrainMasks,TestImages,TestMasks
 
 
-# ad1='/home/amir/epi/s2/'
-# ad2='st'
-# ad4='s2/st'
-# ad5='smask'
-# format_='*.png'
-# img_dim=(320,320)
-# [a,b,c,d]=dataloader(ad1,ad2,ad3,ad5)    
-
-
-
 
 
