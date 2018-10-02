@@ -99,8 +99,7 @@ class SegModel(object):
 
 
             model = Model(inputs=inp, outputs=conv_f )
-            # adam=optimizers.Adam(lr=0.001, beta_1=0.9, beta_2=0.999, decay=0.0)
-            # model.compile(loss='binary_crossentropy',optimizer = adam,metrics=['accuracy'])
+
             self.model=model
 
 
