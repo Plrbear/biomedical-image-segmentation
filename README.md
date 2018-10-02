@@ -1,6 +1,6 @@
 # Multi-Level Contextual Network for Biomedical Image Segmentation
 ## Overview
-paper: https://arxiv.org/abs/1810.00327
+Paper: https://arxiv.org/abs/1810.00327
 ### Datasets
 [Provided data](http://www.andrewjanowczyk.com/deep-learning/)
 
@@ -9,7 +9,7 @@ paper: https://arxiv.org/abs/1810.00327
 ```
 -dataset
  |
- -----mask
+ -----masks
  |    |
       -----x.png
  |    |
@@ -37,10 +37,9 @@ bash train.sh
  #ad1: address of a fold ( among 5 folds for cross validation)  
  #ad2: train images  
  #ad3: test images  
- #ad5: mask folder  
+ #ad5: masks 
+ 
 ### Dependencies
-
-
 * Tensorflow
 * Keras >= 2.0
 * Python >= 2.7
