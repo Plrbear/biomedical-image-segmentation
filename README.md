@@ -29,6 +29,9 @@ Paper: https://arxiv.org/abs/1810.00327
       |
       ---- …
 ```
+
+Data agumentation: https://github.com/codebox/image_augmentor
+
 ### Training
 
 run:
