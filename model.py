@@ -4,7 +4,6 @@ from keras.layers import Dense, Dropout, Activation, \
                          BatchNormalization, Conv2D, Input,merge,AveragePooling2D,concatenate
 from keras.models import Model
 from utils.BilinearUpSampling import *
-from keras import optimizers
 
 
 class SegModel(object):
