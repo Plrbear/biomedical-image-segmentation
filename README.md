@@ -4,7 +4,7 @@
 ### Datasets
 [Provided data](http://www.andrewjanowczyk.com/deep-learning/)
 
-The tree of ```dataset``` dir must be like:
+* The tree of ```dataset``` dir must be like:
 
 ```
 -dataset
@@ -31,15 +31,13 @@ The tree of ```dataset``` dir must be like:
 ```
 ### Training
 
-run:
+*run:
 
-bash train.sh
-...
-#ad1: address of a fold ( among 5 folds for cross validation)
-#ad2: train images
-#ad3: test images
-#ad5: mask folder
-...
+*bash train.sh
+* #ad1: address of a fold ( among 5 folds for cross validation)
+* #ad2: train images
+* #ad3: test images
+* #ad5: mask folder
 ### Dependencies
 
 
