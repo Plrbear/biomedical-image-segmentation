@@ -3,6 +3,7 @@
 
 ### Datasets
 [Provided data](http://www.andrewjanowczyk.com/deep-learning/)
+
 The tree of ```dataset``` dir must be like:
 
 ```
@@ -30,11 +31,17 @@ The tree of ```dataset``` dir must be like:
 ```
 ### Training
 
+run:
 
-
+bash train.sh
+...
+#ad1: address of a fold ( among 5 folds for cross validation)
+#ad2: train images
+#ad3: test images
+#ad5: mask folder
+...
 ### Dependencies
 
-This tutorial depends on the following libraries:
 
 * Tensorflow
 * Keras >= 2.0
