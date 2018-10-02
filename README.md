@@ -2,7 +2,7 @@
 ## Overview
 Paper: https://arxiv.org/abs/1810.00327
 ### Datasets
-[Provided data](http://www.andrewjanowczyk.com/deep-learning/)
+[Download link](http://www.andrewjanowczyk.com/deep-learning/)
 
 * The tree of ```dataset``` dir must be like:
 
@@ -30,7 +30,7 @@ Paper: https://arxiv.org/abs/1810.00327
       ---- …
 ```
 
-Data agumentation: https://github.com/codebox/image_augmentor
+[Data agumentation](https://github.com/codebox/image_augmentor)
 
 ### Training
 
