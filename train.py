@@ -18,15 +18,7 @@ from sklearn.metrics import f1_score
 #import keras.utils.visualize_util as vis_util
 import argparse
 from keras import optimizers
-
-from utils.SegDataGenerator import *
-import time
-
-
-# class SegTrainer(object):
-#         def __init__(self,opt):
-#             self.opt=opt
-            
+       
 def train(opt):  
     
     #####Compile mode####
