@@ -91,13 +91,13 @@ class SegModel(object):
 
             concat_f = merge([out_pdc1,out_pdc2,out_pdc3,out_pdc4], mode = 'concat', concat_axis = 3)  
 
-            i_dec=BilinearUpSampling2D(size = (8,8))(concat_f)
-            i_dec = Dropout(0.5)(i_dec)
+            i_dec = Dropout(0.5)(concat_f)
 
             conv_f = Conv2D(1,(1, 1), activation='sigmoid', padding='same')(i_dec)
 
+            up_dec=BilinearUpSampling2D(size = (8,8))(conv_f)
 
-            model = Model(inputs=inp, outputs=conv_f )
+            model = Model(inputs=inp, outputs=up_dec )
 
             self.model=model
 
